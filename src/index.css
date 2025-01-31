@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-custom: "Noto Serif Hentaigana", serif;
+}
+
+body,
+html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
