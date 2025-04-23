@@ -1,3 +1,5 @@
+import { IconsBar } from "./IconsBar/IconsBar";
+
 export const LandingVideo = () => {
   return (
     <>
@@ -18,6 +20,7 @@ export const LandingVideo = () => {
         <p className="text-lg sm:text-xl text-center">
           SYMPHONIC METAL FROM <br /> THE COLD WASTES OF FINLAND
         </p>
+        <IconsBar />
       </div>
     </>
   );

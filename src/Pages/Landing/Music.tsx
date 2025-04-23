@@ -1,11 +1,9 @@
 import Nature1 from "assets/img/nature-1.jpg";
+import { ContentContainer } from "SharedComponents";
 
 export const Music = () => {
   return (
-    <div
-      className="flex gap-5 flex-col bg-center bg-cover text-white font-custom py-56 w-full justify-center items-center text-center"
-      style={{ backgroundImage: `url(${Nature1})` }}
-    >
+    <ContentContainer style={{ backgroundImage: `url(${Nature1})` }}>
       <span className="text-3xl uppercase mb-12">Music</span>
       <div
         className="flex flex-col items-stretch md:flex-row gap-5 md:gap-12 justify-items-stretch w-full md:items-center justify-center px-2 md:px-36"
@@ -28,6 +26,6 @@ export const Music = () => {
           loading="lazy"
         ></iframe>
       </div>
-    </div>
+    </ContentContainer>
   );
 };

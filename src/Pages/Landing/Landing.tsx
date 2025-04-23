@@ -1,6 +1,7 @@
+import { Contact } from "./Contact";
 import { LandingVideo } from "./LandingVideo";
-import { Shows } from "../Shows/Shows";
-import { Music } from "Pages/Music/Music";
+import { Shows } from "./Shows";
+import { Music } from "Pages/Landing/Music";
 
 export const Landing = () => {
   return (
@@ -8,6 +9,7 @@ export const Landing = () => {
       <LandingVideo />
       <Shows />
       <Music />
+      <Contact />
     </div>
   );
 };
